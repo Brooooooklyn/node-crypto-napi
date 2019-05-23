@@ -4,6 +4,10 @@ version = "0.1.0"
 authors = ["LongYinan <lynweklm@gmail.com>"]
 edition = "2018"
 
+[lib]
+crate-type = ["dylib"]
+
 [dependencies]
+hex = "0.3"
 ring = "0.14"
 napi-rs = { path = "../napi-rs" }
